@@ -149,6 +149,14 @@ such that the learned structural features are most coincident with the end task 
 
 ## 2. Code Usage<a name="code" />
 
+### tl;dr
+
+one line command
+
+```bash
+conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=11.3 -c pytorch -c conda-forge && pip install dgl==1.0.1+cu113 -f https://data.dgl.ai/wheels/cu113/repo.html && pip install -r requirements.txt
+```
+
 ### 2.1  Requirement Installation<a name="requirement" />
 
 - Step 1: install base envir
